@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Trafford Micro Apps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f1f5f9; }
+        .app-card { transition: all 0.3s ease; border: 1px solid #1e293b; }
+        .app-card:hover { transform: translateY(-8px); border-color: #3b82f6; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col font-sans">
+    <header class="pt-20 pb-16 px-6 text-center">
+        <h1 class="text-5xl font-extrabold mb-4 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">Trafford Micro Apps</h1>
+        <p class="text-slate-400 max-w-xl mx-auto text-lg">A collection of specialized tools.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 flex-grow">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- WW2 Timeline -->
+            <div class="app-card bg-slate-900/50 rounded-2xl p-8 flex flex-col">
+                <h2 class="text-2xl font-bold mb-3">WW2 Timeline</h2>
+                <p class="text-slate-400 text-sm mb-8 flex-grow">A chronological exploration of the Second World War through film.</p>
+                <a href="ww2-timeline/index.html" class="bg-blue-600 hover:bg-blue-500 text-white text-center py-3 rounded-xl font-semibold">Open Project</a>
+            </div>
+
+            <!-- Frame Calculator -->
+            <div class="app-card bg-slate-900/50 rounded-2xl p-8 flex flex-col">
+                <h2 class="text-2xl font-bold mb-3">Picture Frame Calculator</h2>
+                <p class="text-slate-400 text-sm mb-8 flex-grow">Precision measurement tool for calculating matting and frame dimensions.</p>
+                <a href="frame-calculator/index.html" class="bg-emerald-600 hover:bg-emerald-500 text-white text-center py-3 rounded-xl font-semibold">Launch Tool</a>
+            </div>
+
+            <!-- Payment Audit -->
+            <div class="app-card bg-slate-900/50 rounded-2xl p-8 flex flex-col">
+                <h2 class="text-2xl font-bold mb-3">Regular Payment Audit - Demo</h2>
+                <p class="text-slate-400 text-sm mb-8 flex-grow">A secure financial utility to audit and manage recurring subscriptions.</p>
+                <a href="payments-audit/index.html" class="bg-indigo-600 hover:bg-indigo-500 text-white text-center py-3 rounded-xl font-semibold">Access Audit</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 text-center border-t border-slate-800/50">
+        <p class="text-slate-500 text-sm">Portfolio Hub &bull; 2026</p>
+    </footer>
+</body>
+</html>
